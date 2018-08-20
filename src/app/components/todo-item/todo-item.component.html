@@ -1,0 +1,7 @@
+
+
+<div class="todoWrapper">
+  <input type="checkbox" value="{{todo.id}}" (change)="check(todo,$event)" />
+  <button class="removeTodo" (click)="removeTodo()">remove</button>{{todo.text}}
+  <button class="removeTodo" (click)='deleteTodoAll()'>Delete All</button>
+</div>

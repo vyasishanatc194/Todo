@@ -1,0 +1,9 @@
+ <div *ngFor="let todo of todoService.getTodos()">
+    <div class="todoWrapper">
+        <input type="checkbox" value="{{todo.id}}" (change)="check(todo,$event)" />
+       <span>{{todo.text}}</span>
+        <button class="removeTodo" (click)="removeTodo(todo.id)">remove</button>
+      </div>
+  </div>
+  <button class="deleteall" (click)='deleteTodoAll()'>Delete All</button>
+

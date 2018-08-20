@@ -1,0 +1,52 @@
+.todoWrapper {
+  border-bottom: 1px solid #efefef;
+  text-align: left;
+  margin-bottom: 10px;
+  float: left;
+    width: 100%;
+}
+
+h1 {
+  color: #4e77c5;
+}
+
+.btn-primary {
+  color: #000;
+  border-color: #ccc;
+  background-color: transparent;
+}
+
+.removeTodo[_ngcontent-c3]{
+  margin-right: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: #000;
+  border-color: #ccc;
+  background-color: transparent;
+  cursor: pointer;
+  float: right;
+}
+button.removeTodo:hover {
+  color: #fff;
+  background: #ddd;
+}
+button.deleteall{
+  border: 1px solid #ccc;
+  background: red;
+  padding: 8px;
+  color: #fff;
+  font-weight: 100;
+  border-radius: 5px;
+  position: relative;
+  margin: 0px 0 0 82%;
+  cursor: pointer;
+}
+button.deleteall:hover {
+  background: #000;
+  color: #fff;
+}
